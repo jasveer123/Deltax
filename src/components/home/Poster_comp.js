@@ -21,7 +21,7 @@ function Poster_cop(props) {
               <div className="divs">{data.Songname}</div>
               <div className="divs">{data.Date}</div>
               <div className="divs">{data.Songname1}</div>
-              <Rating_comp />
+              <Rating_comp data2={data._id} Rating={data.Rating} />
             </div>
           </div>
         )

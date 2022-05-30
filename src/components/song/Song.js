@@ -63,7 +63,7 @@ function Song() {
             ></input>
             <input
               className="form_content"
-              type="file"
+              type="text"
               placeholder="songname"
               onChange={(e) => setsong1(e.target.value)}
             ></input>

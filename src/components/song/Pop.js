@@ -20,7 +20,7 @@ function Pop() {
     e.preventDefault()
     console.log(name_artist, date_artist, bio_artist)
     axios
-      .post('http://localhost:7000/song', {
+      .post('http://localhost:7000/song/artist', {
         Artist_name: name_artist,
         Artist_Date: date_artist,
         Artist_bio: bio_artist,
