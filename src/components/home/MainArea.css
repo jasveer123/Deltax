@@ -1,0 +1,59 @@
+.divs {
+  border: 1px solid rgba(243, 235, 235, 0.8);
+  height: 210px;
+  width: 160px;
+  margin-left: 10px;
+  text-align: center;
+  line-height: 170px;
+  font-size: large;
+  background-color: rgb(250, 243, 243);
+}
+
+.mainarea {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.heading {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 50px;
+  flex-wrap: wrap;
+}
+
+.poster {
+  height: 210px;
+  width: 160px;
+}
+
+.rating {
+  margin-top: 20px;
+}
+
+.top10 {
+  margin-left: 190px;
+  font-size: x-large;
+  font-weight: 500;
+}
+
+.addsong {
+  margin-right: 180px;
+  height: 30px;
+  width: 90px;
+  border-radius: 20px;
+  border: none;
+  background-color: rgb(131, 236, 201);
+}
+
+.blank {
+  height: 50px;
+}
+
+.addsong:hover {
+  background-color: rgb(174, 192, 192);
+  color: #fff;
+  transition: all 0.2s;
+}

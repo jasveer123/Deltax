@@ -1,0 +1,32 @@
+.navbar {
+  background-color: rgb(250, 243, 243);
+
+  height: 90px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+body {
+  margin: auto;
+}
+
+.logo {
+  flex: 1;
+  margin-top: -85px;
+}
+
+.home {
+  margin-top: 30px;
+  margin-right: 60px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+  color: rgb(37, 88, 122);
+
+  text-decoration: none;
+}
+
+.home:hover {
+  color: aqua;
+  transition: all 0.2s;
+}

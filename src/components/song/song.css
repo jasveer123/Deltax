@@ -1,0 +1,151 @@
+#songform {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form_content {
+  margin-top: 10px;
+  height: 40px;
+  width: 350px;
+  border-radius: 30px;
+  border: none;
+  background-color: aqua;
+  outline: none;
+}
+
+.lower_form {
+  margin-top: 20px;
+}
+
+#submit {
+  height: 30px;
+  width: 100px;
+  border-radius: 30px;
+  border: none;
+  background-color: rgb(131, 236, 201);
+  margin-right: 20px;
+}
+
+#submit:hover {
+  background-color: rgb(174, 192, 192);
+  color: #fff;
+  transition: all 0.2s;
+}
+#cars {
+  height: 30px;
+  width: 100px;
+  background-color: aqua;
+  border: none;
+  border-radius: 15px;
+  margin-top: 10px;
+  outline: none;
+  font-size: medium;
+}
+
+#artist {
+  font-size: large;
+  font-weight: lighter;
+  margin-right: 20px;
+}
+
+.heading2 {
+  font-size: large;
+  text-align: center;
+  margin-top: 10px;
+  font-weight: 500;
+}
+
+#cancel {
+  height: 30px;
+  width: 100px;
+  border-radius: 30px;
+  border: none;
+  background-color: rgb(238, 154, 98);
+}
+
+#cancel:hover {
+  background-color: rgb(174, 192, 192);
+  color: #fff;
+  transition: all 0.2s;
+}
+
+#selct_options {
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
+}
+
+#btn-flex {
+  display: flex;
+  justify-content: center;
+}
+
+.add-btn {
+  width: 60px;
+  height: 30px;
+  border-radius: 20px;
+  margin-top: 10px;
+  margin-left: 10px;
+  border: none;
+  background-color: aqua;
+}
+
+.add-btn:hover {
+  background-color: rgb(174, 192, 192);
+  color: #fff;
+  transition: all 0.2s;
+}
+
+.pop {
+  text-align: center;
+  margin-left: 20px;
+}
+.pop_window {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+[role='tooltip'].popup-content {
+  width: 350px !important;
+  height: 390px;
+  background-color: rgb(228, 240, 240) !important;
+}
+
+.pop-content {
+  margin-top: 20px;
+}
+
+#addname {
+  margin-top: 10px;
+  height: 30px;
+  width: 200px;
+  border-radius: 30px;
+  border: none;
+  background-color: #fff;
+  outline: none;
+}
+#adddate {
+  margin-top: 10px;
+  height: 30px;
+  width: 200px;
+  border-radius: 30px;
+  border: none;
+  background-color: #fff;
+  outline: none;
+}
+
+#textarea {
+  margin-top: 10px;
+  height: 150px;
+  width: 250px;
+  border-radius: 10px;
+  border: none;
+  background-color: #fff;
+  outline: none;
+}
+
+#addbio {
+  text-align: center;
+}
