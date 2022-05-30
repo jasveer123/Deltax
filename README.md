@@ -93,5 +93,10 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 ![Screenshot from 2022-05-30 22-25-10](https://user-images.githubusercontent.com/51202726/171035096-fec66c3d-ed59-4776-aa11-8599c0d9b614.png)
 
 
+Steps to open :
+1.) Clone the repo 
+2.)  Type Npm i 
+3.) Type npm run Start:front for start frontend and then type npm run server:prod in new terminal for backend 
+4.) Now you can go to local hoste 3000 and enjoy 
 
-
+My app is working fine but when i make build it gave some issues so i tell sperate frontend and backend steps , due to time shortage i dont able to remove bugs 
